@@ -1,12 +1,13 @@
 import React from "react";
 
 import irokoLogo from "../assests/iroko.svg";
+import { LogoContainer, IrokoLogoImg } from "./styledComponents";
 
 const IrokoLogo = () => {
     return (
-        <div className="logo-div">
-          <img src={ irokoLogo } alt="Logo"/>
-        </div>
+        <LogoContainer>
+          <IrokoLogoImg src={ irokoLogo } alt="Logo"/>
+        </LogoContainer>
     );
 }
 

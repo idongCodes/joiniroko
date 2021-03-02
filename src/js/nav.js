@@ -2,11 +2,14 @@ import React from "react";
 
 import IrokoLogo from "./irokoLogo"
 
+import { TopNav } from "./styledComponents";
+
 function Nav() {
     return (
-      <nav>
+      <TopNav>
         <IrokoLogo></IrokoLogo>
-      </nav>
+        <i class="fas fa-ellipsis-h"></i>
+      </TopNav>
     );
 }
 
